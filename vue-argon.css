@@ -178,6 +178,7 @@ ul.navi-right{
   visibility:hidden;
   background: #fff;
   position: absolute;
+  z-index:10;
   border-radius: .5rem;
   box-shadow: 0 2rem 1.5rem -1.5rem rgba(33,37,41,.15), 0 0 1.5rem 0.5rem rgba(33,37,41,.05);
   width: 12rem;
