@@ -159,27 +159,27 @@ $(document).on("click","#send-it",function(){var a=document.getElementById("chat
 /* HTML Pembayaran */
 document.getElementById('add-pembayaran').innerHTML = 
 "<div class='pay-box'><center>"+
-"<img src='https://4.bp.blogspot.com/-rSqBLYiCtzY/XHPu3YxP1pI/AAAAAAAALZw/RxX5OvoedZYWooGS6JNf-L6-9fpK_S98wCLcBGAs/s120/BCA.png' alt='BCA'/></center>"+
+"<img class='lazy' data-src='https://4.bp.blogspot.com/-rSqBLYiCtzY/XHPu3YxP1pI/AAAAAAAALZw/RxX5OvoedZYWooGS6JNf-L6-9fpK_S98wCLcBGAs/s120/BCA.png' alt='BCA'/></center>"+
 "No.Rek: 5475228712<br/>A/N: Rio Ilham Hadi"+
 "</div>"+
 "<div class='pay-box'><center>"+
-"<img src='https://2.bp.blogspot.com/-lnYTxUzqIr0/XHPu4K8PwEI/AAAAAAAALZ0/XJmZk6hnIMQ9N4GfKQ0oYqRWGwQaKLchQCLcBGAs/s120/Paypal.png' alt='Paypal'/></center>"+
+"<img class='lazy' data-src='https://2.bp.blogspot.com/-lnYTxUzqIr0/XHPu4K8PwEI/AAAAAAAALZ0/XJmZk6hnIMQ9N4GfKQ0oYqRWGwQaKLchQCLcBGAs/s120/Paypal.png' alt='Paypal'/></center>"+
 "rioblanter@gmail.com<br/>paypal.me/rioblanter"+
 "</div>"+
 "<div class='pay-box'><center>"+
-"<img src='https://2.bp.blogspot.com/-mI-aL3sl5os/XHPu3QtwyMI/AAAAAAAALZo/GIFPWqdlReMiDDX8DBw0OOXxUMaCrg-bQCLcBGAs/s120/Ovo.jpg' alt='OVO'/></center>"+
+"<img class='lazy' data-src='https://2.bp.blogspot.com/-mI-aL3sl5os/XHPu3QtwyMI/AAAAAAAALZo/GIFPWqdlReMiDDX8DBw0OOXxUMaCrg-bQCLcBGAs/s120/Ovo.jpg' alt='OVO'/></center>"+
 "0888-8905-441<br/>A/N: Rio Ilham Hadi"+
 "</div>"+
 "<div class='pay-box'><center>"+
-"<img src='https://2.bp.blogspot.com/-LeThx0u94EQ/XHPu4o7WjUI/AAAAAAAALZ4/9hfwvfHeBe8JSyKeXQnbDr1-sd8rWfTyQCLcBGAs/s120/Smartfren.png' alt='Smartfren'/></center>"+
+"<img class='lazy' data-src='https://2.bp.blogspot.com/-LeThx0u94EQ/XHPu4o7WjUI/AAAAAAAALZ4/9hfwvfHeBe8JSyKeXQnbDr1-sd8rWfTyQCLcBGAs/s120/Smartfren.png' alt='Smartfren'/></center>"+
 "Chat before use this method.<br/>"+
 "</div>"+
 "<div class='pay-box'><center>"+
-"<img src='https://2.bp.blogspot.com/-8a-TGOw8cbc/XHPxbB239ZI/AAAAAAAALaU/s497aWKkELgeApVy1luFjNNahmJ6IsPygCLcBGAs/s120/XL.jpg' alt='XL Axiata'/></center>"+
+"<img class='lazy' data-src='https://2.bp.blogspot.com/-8a-TGOw8cbc/XHPxbB239ZI/AAAAAAAALaU/s497aWKkELgeApVy1luFjNNahmJ6IsPygCLcBGAs/s120/XL.jpg' alt='XL Axiata'/></center>"+
 "Chat before use this method.<br/>"+
 "</div>"+
 "<div class='pay-box'><center>"+
-"<img src='https://2.bp.blogspot.com/-rr1zXLu-xpI/XHPu3cYwxoI/AAAAAAAALZs/yqp_MCwpTlYfiV0yRWbzmn2-SrGQoqEQwCLcBGAs/s120/GoPay.png' alt='GoPay'/></center>"+
+"<img class='lazy' data-src='https://2.bp.blogspot.com/-rr1zXLu-xpI/XHPu3cYwxoI/AAAAAAAALZs/yqp_MCwpTlYfiV0yRWbzmn2-SrGQoqEQwCLcBGAs/s120/GoPay.png' alt='GoPay'/></center>"+
 "0888-8905-441<br/>A/N: Rio Ilham Hadi"+
 "</div>";
 
