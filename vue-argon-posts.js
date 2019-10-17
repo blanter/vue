@@ -93,9 +93,9 @@ $("img.lazy").toggleClass("show");
 
 /* Posts */
 $(document).on('click','.belisekarang', function(){
-$("#order-wrapper").toggleClass("aktif");
+$("#order-wrapper,body").toggleClass("aktif");
 });
-$(document).ready(function(){$(".close_order").click(function(){$("#order-wrapper").removeClass("aktif");});});
+$(document).ready(function(){$(".close_order").click(function(){$("#order-wrapper,body").removeClass("aktif");});});
 
 if (get_developer == false){
 $('.developer,.pilih-lisensi,.back1').hide();
