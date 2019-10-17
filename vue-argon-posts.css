@@ -521,6 +521,14 @@ a.close-search {
 a.close-search:hover{
   color:#000
 }
+a.button.show-search i{
+  margin:0
+}
+a.button.show-search {
+    border-radius: 100%;
+    margin: 5px;
+    padding: 5px 18px;
+}
 @media screen and (max-width:680px){
   #search-box{
     max-width:380px
