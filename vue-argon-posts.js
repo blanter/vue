@@ -155,3 +155,46 @@ $(document).on('click','.captchaid', function(){
 
 /* Whatsapp Chat Widget by www.idblanter.com */
 $(document).on("click","#send-it",function(){var a=document.getElementById("chat-input");if(""!=a.value){var b=$("#get-number").text(),c=document.getElementById("chat-input").value,d="https://web.whatsapp.com/send",e=b,f="&text="+c;if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))var d="whatsapp://send";var g=d+"?phone="+e+f;window.open(g, '_blank')}}),$(document).on("click",".informasi",function(){document.getElementById("get-number").innerHTML=$(this).children(".my-number").text(),$(".start-chat,.get-new").addClass("show").removeClass("hide"),$(".home-chat,.head-home").addClass("hide").removeClass("show"),document.getElementById("get-nama").innerHTML=$(this).children(".info-chat").children(".chat-nama").text(),document.getElementById("get-label").innerHTML=$(this).children(".info-chat").children(".chat-label").text()}),$(document).on("click",".close-chat",function(){$("#whatsapp-chat").addClass("hide").removeClass("show")}),$(document).on("click",".blantershow-chat",function(){$("#whatsapp-chat").addClass("show").removeClass("hide")});
+
+/* HTML Pembayaran */
+document.getElementById('add-pembayaran').innerHTML = 
+"<div class='pay-box'><center>"+
+"<img src='https://4.bp.blogspot.com/-rSqBLYiCtzY/XHPu3YxP1pI/AAAAAAAALZw/RxX5OvoedZYWooGS6JNf-L6-9fpK_S98wCLcBGAs/s120/BCA.png' alt='BCA'/></center>"+
+"No.Rek: 5475228712<br/>A/N: Rio Ilham Hadi"+
+"</div>"+
+"<div class='pay-box'><center>"+
+"<img src='https://2.bp.blogspot.com/-lnYTxUzqIr0/XHPu4K8PwEI/AAAAAAAALZ0/XJmZk6hnIMQ9N4GfKQ0oYqRWGwQaKLchQCLcBGAs/s120/Paypal.png' alt='Paypal'/></center>"+
+"rioblanter@gmail.com<br/>paypal.me/rioblanter"+
+"</div>"+
+"<div class='pay-box'><center>"+
+"<img src='https://2.bp.blogspot.com/-mI-aL3sl5os/XHPu3QtwyMI/AAAAAAAALZo/GIFPWqdlReMiDDX8DBw0OOXxUMaCrg-bQCLcBGAs/s120/Ovo.jpg' alt='OVO'/></center>"+
+"0888-8905-441<br/>A/N: Rio Ilham Hadi"+
+"</div>"+
+"<div class='pay-box'><center>"+
+"<img src='https://2.bp.blogspot.com/-LeThx0u94EQ/XHPu4o7WjUI/AAAAAAAALZ4/9hfwvfHeBe8JSyKeXQnbDr1-sd8rWfTyQCLcBGAs/s120/Smartfren.png' alt='Smartfren'/></center>"+
+"Chat before use this method.<br/>"+
+"</div>"+
+"<div class='pay-box'><center>"+
+"<img src='https://2.bp.blogspot.com/-8a-TGOw8cbc/XHPxbB239ZI/AAAAAAAALaU/s497aWKkELgeApVy1luFjNNahmJ6IsPygCLcBGAs/s120/XL.jpg' alt='XL Axiata'/></center>"+
+"Chat before use this method.<br/>"+
+"</div>"+
+"<div class='pay-box'><center>"+
+"<img src='https://2.bp.blogspot.com/-rr1zXLu-xpI/XHPu3cYwxoI/AAAAAAAALZs/yqp_MCwpTlYfiV0yRWbzmn2-SrGQoqEQwCLcBGAs/s120/GoPay.png' alt='GoPay'/></center>"+
+"0888-8905-441<br/>A/N: Rio Ilham Hadi"+
+"</div>";
+
+/* HTML Pemesanan */
+document.getElementById('add-pemesanan').innerHTML = 
+"<form id='payment_confirm' name='contact-form'>"+
+"<div class='theme-grid'><i class='icon ion-ios-contact'></i><input class='validate' id='pembeliform' placeholder='Nama' name='name' required='' type='text' value=''/></div>"+
+"<div class='theme-grid'><i class='icon ion-ios-mail'></i><input class='validate' id='emailform' placeholder='Email' name='email' required='' type='email' value=''/></div>"+
+"<div class='theme-grid'><i class='icon ion-ios-card'></i><select id='pembayaran'>"+
+"<option hidden='hidden' selected='selected' value='default'>Metode Pembayaran</option>"+
+'<option value="1">BCA : 5475228712 A/N Rio Ilham Hadi</option>'+
+'<option value="2">Paypal : rioblanter@gmail.com</option>'+
+'<option value="3">OVO : 08888905441</option>'+
+'<option value="4">GoPay : 08888905441</option>'+
+'<option value="5">Pulsa Smartfren : 08888905441</option>'+
+'</select><a type="submit" class="captchaid" href="javascript:void"><span class="box-captcha"></span>Setuju Syarat dan Ketentuan</a></div>'+
+'<div class="theme-grid"><i class="icon ion-ios-globe"></i><input class="validate" id="linkform" placeholder="URL Blog *www.example.com" name="url" required="" type="url" value=""/><span class="badge text-info">Jika lebih dari 1, Pisahkan dengan spasi.</span></div>'+
+"</form>";
