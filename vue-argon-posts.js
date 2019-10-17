@@ -11,7 +11,7 @@ $(document)
       .click(function() {
         $("#search-box")
           .slideToggle("normal");
-        $(".tombol-utama")
+        $(".header-one p")
           .slideToggle("normal");
       });
   });
