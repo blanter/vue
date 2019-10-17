@@ -612,7 +612,7 @@ a.close-navigation {
   right: 7%;
   line-height: 1.8;
 }
-img.mobile-logo {
+img.mobile-logo.lazy {
   display:none;
   width: 200px;
   position: relative;
@@ -770,7 +770,7 @@ ul.navi-right {
 .navigation ul.navi-right li {
   float: left;
 }
-a.show-navigation,img.mobile-logo{
+a.show-navigation,img.mobile-logo.lazy{
   display:block
 }
 a.close-navigation{
