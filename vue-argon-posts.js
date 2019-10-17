@@ -39,19 +39,6 @@ $(document)
   });
 
 /* Posts */
-$('.hargapersonal,.harga-personal-lic,.harga b').text(personal);
-$('.hargadeveloper,.harga-developer-lic').text(developer);
-$('.coret-personal-lic').text(c_personal);
-$('.coret-developer-lic').text(c_developer);
-$('.listlisensi').text(lisensi);
-$('.listrilis').text(rilis);
-$('.listversi').text(versi);
-$('.listupdate').text(update);
-document.getElementById('preview').href = preview;
-var changelog = document.getElementById('go-changelog').innerHTML;
-document.getElementById('add-changelog').innerHTML = changelog;
-document.getElementById('go-changelog').innerHTML = '';
-
 $(document).on('click','.belisekarang', function(){
 $("#order-wrapper").toggleClass("aktif");
 });
@@ -205,3 +192,17 @@ for(i=0; i<1; i++){
 lazyLoad();
 };
 $("img.lazy").toggleClass("show");
+
+/* Pemanggil Data */
+$('.hargapersonal,.harga-personal-lic,.harga b').text(personal);
+$('.hargadeveloper,.harga-developer-lic').text(developer);
+$('.coret-personal-lic').text(c_personal);
+$('.coret-developer-lic').text(c_developer);
+$('.listlisensi').text(lisensi);
+$('.listrilis').text(rilis);
+$('.listversi').text(versi);
+$('.listupdate').text(update);
+document.getElementById('preview').href = preview;
+var changelog = document.getElementById('go-changelog').innerHTML;
+document.getElementById('add-changelog').innerHTML = changelog;
+document.getElementById('go-changelog').innerHTML = '';
