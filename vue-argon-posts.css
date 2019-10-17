@@ -6,6 +6,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 body{font-family:'Montserrat',Arial, Helvetica, sans-serif;line-height:1.5}
 .hidden,.displaynone{display:none}
 .left{float:left}.right{float:right}
+body.aktif{overflow:hidden}
 
 /* CSS Multiple Whatsapp Chat */
 #whatsapp-chat{position:fixed;background:#fff;width:350px;border-radius:10px;box-shadow:0 1px 15px rgba(32,33,36,.28);bottom:90px;right:30px;overflow:hidden;z-index:99;animation-name:showchat;animation-duration:1s;transform:scale(1)}
