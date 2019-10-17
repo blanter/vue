@@ -11,7 +11,6 @@ a.blantershow-chat{background:linear-gradient(to right top,#6f96f3,#164ed2);colo
 a.blantershow-chat i{transform:scale(1.2);margin:0 10px 0 0}.header-chat{background:linear-gradient(to right top,#6f96f3,#164ed2);color:#fff;padding:20px}
 .header-chat h3{margin:0 0 10px}.header-chat p{font-size:14px;line-height:1.7;margin:0}
 .info-avatar{position:relative}.info-avatar img{border-radius:100%;width:50px;float:left;margin:0 10px 0 0}
-.info-avatar:before{content:'<i class="icon ion-logo-whatsapp"></i>';z-index:1;background:#23ab23;color:#fff;padding:4px 5px;border-radius:100%;position:absolute;top:30px;left:30px}
 a.informasi{padding:20px;display:block;overflow:hidden;animation-name:showhide;animation-duration:2.5s}
 a.informasi:hover{background:#f1f1f1}.info-chat span{display:block}#get-label,span.chat-label{font-size:12px;color:#888}
 #get-nama,span.chat-nama{margin:5px 0 0;font-size:15px;font-weight:700;color:#222}#get-label,#get-nama{color:#fff}span.my-number{display:none}
