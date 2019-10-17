@@ -359,6 +359,7 @@ a.captchaid {
   font-size: .8rem;
   display: inline-block;
   margin: 15px 0;
+  color:#555
 }
 span.box-captcha {
   width: 18px;
@@ -780,4 +781,20 @@ a.close-navigation{
   width:100%;
   float:none
 }
+.sidebar,#content .post-container{overflow:hidden;margin:10px 0}
+#content .post-container{width:100%;float:none;padding:10px 0}
+.box-master{box-shadow:none;border:1px solid #ddd;margin:25px 5px}
+#order-wrapper{background:#fff}
+.box-wrap {width:92%;box-shadow:none;overflow-y:auto;position:fixed;top:0;bottom:0}
+.blanter-yes{display:none}
+.sementara,.pilih-lisensi license,#payment_confirm{grid-template-columns:1fr}
+.pembayaran{grid-template-columns:1fr 1fr}
+.pay-box{overflow:hidden}
+a.captchaid{position:absolute;width:100%;bottom:-350%;left:0}
+.pemesanan{padding:0 0 30px}
+.order-button .left,.order-button .right{float:none}
+.order-button .right{display:grid;grid-template-columns:1fr 1fr;grid-gap:15px}
+.order-button a.button{text-align:center;margin:0}
+.order-button a.button i{display:block;font-size:1.2rem;margin:0 0 10px}
+  
 }
