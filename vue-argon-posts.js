@@ -206,3 +206,8 @@ document.getElementById('preview').href = preview;
 var changelog = document.getElementById('go-changelog').innerHTML;
 document.getElementById('add-changelog').innerHTML = changelog;
 document.getElementById('go-changelog').innerHTML = '';
+
+/* Halaman */
+    if($('.post').children('.pageBody')) {
+        $('.post-container').toggleClass("halaman");
+    } 
