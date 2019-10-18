@@ -62,7 +62,7 @@ img.lazy{display:none}img.lazy.show{display:block}
 }
 
 /* Konten Tambahan */
-.last-order,.breadcrumbs,.share-post,.related-post,.comments-blocks,.detail-pemesanan{
+.last-order,.breadcrumbs,.share-post,.related-post,.comments-blocks,.detail-pemesanan,.pageBody h1.post-title{
   display:none
 }
 #content {
@@ -76,6 +76,10 @@ img.lazy{display:none}img.lazy.show{display:block}
   float:left;
   margin: 0 15px 0 0;
   position:relative;
+}
+#content .post-container.halaman {
+    width: 100%;
+    float: none;
 }
 #content img{
   border-radius:.5rem;
