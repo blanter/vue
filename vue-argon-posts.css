@@ -228,7 +228,7 @@ h4.tombol-heading {
   padding: 5px;
 }
 .order-button a.button#emaillink {
-  background: #11cdef;
+  background: #11acef;
   color: #fff;
 }
 .order-button a.button#walink {
@@ -333,7 +333,7 @@ h4.tombol-heading {
 .harga-personal-lic, .harga-developer-lic {
   font-weight: 700;
   font-size: 1.5rem;
-  color: #11cdef;
+  color: #11acef;
 }
 .coret-personal-lic, .coret-developer-lic {
   text-decoration: line-through;
@@ -437,7 +437,7 @@ a.button:hover {
   transform: translateY(-3px);
 }
 a.button.wajib{
-  background:#11cdef;
+  background:#11acef;
   color:#fff;
 }
 a.button i{
