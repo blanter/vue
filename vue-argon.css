@@ -63,7 +63,7 @@ a.button:hover {
   transform: translateY(-3px);
 }
 a.button.wajib{
-  background:#11cdef;
+  background:#11acef;
   color:#fff;
 }
 a.button i{
