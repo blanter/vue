@@ -494,6 +494,16 @@ img.mobile-logo.lazy {
   padding:30px 15px;
   background:#eee;
 }
+.footer-left {
+    float: left;
+}
+.footer-right {
+    float: right;
+}
+.footer-right a {
+    color: #555;
+    margin: 0 15px;
+}
 
 /* Media Responsive */
 @media screen and (max-width:768px){
