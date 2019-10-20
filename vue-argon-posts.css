@@ -709,10 +709,26 @@ img.mobile-logo.lazy {
   font-size:.9rem;
   padding:30px 15px;
   background:#eee;
+  overflow:hidden
+}
+.footer-left {
+    float: left;
+}
+.footer-right {
+    float: right;
+}
+.footer-right a {
+    color: #555;
+    margin: 0 15px;
+}
+.footer-right a:hover{
+  color:#222
 }
 
 /* Media Responsive */
 @media screen and (max-width:768px){
+    .footer-left,.footer-right{float:none}
+  .footer-right{margin:15px 0 0}
   .wrapper{
     padding:0 10px;
   }
