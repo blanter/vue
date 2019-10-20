@@ -493,6 +493,7 @@ img.mobile-logo.lazy {
   font-size:.9rem;
   padding:30px 15px;
   background:#eee;
+  overflow:hidden
 }
 .footer-left {
     float: left;
