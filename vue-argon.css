@@ -387,17 +387,16 @@ img.mobile-logo.lazy {
   -webkit-box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07)!important;
   box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07)!important;
   border-radius: .5rem;
-  transition: all .3s ease-in-out;
+  transition: all .2s ease-in-out;
   text-align: center;
   overflow: hidden;
 }
 #feature-posts .column:hover{
-  -webkit-transform: translateY(-15px);
-  transform: translateY(-15px);
+  -webkit-transform: translateY(-18px);
+  transform: translateY(-18px);
 }
 #feature-posts .icon {
   font-size: 3rem;
-  text-shadow: 0 10px 10px rgba(0,0,0,.2);
   background: linear-gradient(#424ef4,#4285f4);
   color: #fff;
   padding: 0;
@@ -420,16 +419,7 @@ img.mobile-logo.lazy {
 #feature-posts h4 {
   font-size: 1rem;
   text-transform:uppercase;
-  color:#424ef4;
-}
-#feature-posts .column:nth-child(2) h4{
-  color:#ee3333
-}
-#feature-posts .column:nth-child(3) h4{
-  color:#ee9b33
-}
-#feature-posts .column:nth-child(4) h4{
-  color:#32ac0a
+  color:#444;
 }
 #feature-posts .column p {
   font-size: .8rem;
