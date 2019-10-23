@@ -726,6 +726,26 @@ img.mobile-logo.lazy {
   color:#222
 }
 
+/* Related Vue */
+ul.related-post-style-3 {
+    list-style: none;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    text-align: center;
+}
+a.related-post-item-title {
+    color: #333;
+}
+img.related-post-item-thumbnail {
+    box-shadow: 0 2rem 1.5rem -1.5rem rgba(33,37,41,.15), 0 0 1.5rem 0.5rem rgba(33,37,41,.05);
+  transition:all .3s ease-in-out;
+}
+img.related-post-item-thumbnail:hover {
+    box-shadow: 0 2.25rem 1.5rem -1.5rem rgba(33,37,41,.3),0 0 1.5rem .5rem rgba(33,37,41,.05);
+}
+
 /* Media Responsive */
 @media screen and (max-width:768px){
     .footer-left,.footer-right{float:none}
