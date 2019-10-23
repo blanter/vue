@@ -744,6 +744,8 @@ img.related-post-item-thumbnail {
 }
 img.related-post-item-thumbnail:hover {
     box-shadow: 0 2.25rem 1.5rem -1.5rem rgba(33,37,41,.3),0 0 1.5rem .5rem rgba(33,37,41,.05);
+  -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
 }
 
 /* Media Responsive */
