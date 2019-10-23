@@ -99,10 +99,16 @@ lazyLoad();
 $("img.lazy").toggleClass("show");
 
 /* Posts */
+if (get_premium == true){
 $(document).on('click','.belisekarang', function(){
 $("#order-wrapper,body").toggleClass("aktif");
 });
+};
 $(document).ready(function(){$(".close_order").click(function(){$("#order-wrapper,body").removeClass("aktif");});});
+
+if (get_premium == false){
+$('.box-master .button.wajib').text('Free Download').attr('href',link_download).attr('title','Free Download').attr('target','_blank');
+};
 
 if (get_developer == false){
 $('.developer,.pilih-lisensi,.back1').hide();
