@@ -27,7 +27,6 @@ a#send-it{color:#555;width:40px;margin:-5px 0 0 5px;font-weight:700;padding:8px;
 @media screen and (max-width:480px){#whatsapp-chat{width:auto;left:5%;right:5%;font-size:80%}}
 #whatsapp-chat.hide,#whatsapp-chat .hide{display:none;animation-name:showhide;animation-duration:1.5s;transform:scale(1);opacity:1}
 #whatsapp-chat.show,#whatsapp-chat .show{display:block;animation-name:showhide;animation-duration:1.5s;transform:scale(1);opacity:1}
-
 img.lazy{display:none}img.lazy.show{display:block}
 #add-changelog b:nth-child(n+2){padding:15px 0 0;display:inline-block}
 
@@ -856,3 +855,6 @@ a.captchaid{position:absolute;width:100%;bottom:-350%;left:0}
 }
 /* Shape */
 .shape{position:absolute;top:0;z-index:-1;width:100%;height:100%}.shape span{position:absolute}.shape-style-1 span{height:120px;width:120px;border-radius:50%}.shape-style-1 :first-child{left:-4%;bottom:auto;background:hsla(0,0%,100%,.1)}.shape-style-1 .span-150{height:150px;width:150px}.shape-style-1 :nth-child(2){right:4%;top:10%;background:hsla(0,0%,100%,.1)}.shape-style-1 .span-50{height:50px;width:50px}.shape-style-1 :nth-child(3){top:280px;right:5.66666%;background:hsla(0,0%,100%,.3)}.shape-style-1 :nth-child(4){top:320px;right:7%;background:hsla(0,0%,100%,.15)}.shape .span-75{height:75px;width:75px}.shape .shape-style-1 :nth-child(5){top:38%;left:1%;right:auto;background:hsla(0,0%,100%,.05)}.shape-style-1 .span-100{height:100px;width:100px}.shape-style-1 :nth-child(6){width:200px;height:200px;top:44%;left:10%;right:auto;background:hsla(0,0%,100%,.15)}.shape-style-1 :nth-child(7){bottom:50%;right:36%;background:hsla(0,0%,100%,.04)}.shape-style-1 :nth-child(8){bottom:70px;right:2%;background:hsla(0,0%,100%,.2)}.shape-style-1 :nth-child(9){bottom:1%;right:2%;background:hsla(0,0%,100%,.1)}.shape-style-1 :nth-child(10){bottom:1%;left:1%;right:auto;background:hsla(0,0%,100%,.05)}
+
+/* About Pages */
+#about-page{z-index:1;position:relative;background:#fff;box-shadow:0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);padding:40px;margin:30px 0 0;box-sizing:border-box;border-radius:.5rem;color:#444;text-align:center}.profile-image{position:relative;height:100px}#content .profile-image img{border-radius:100%;width:180px;height:180px;box-shadow:0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);-webkit-transform:translateY(-100px);transform:translateY(-100px)}.about-info h2 b,.about-info h3{font-weight:500}.about-info h2{font-weight:400}.about-desc{padding:50px 100px;margin:50px 0 0;box-sizing:border-box;line-height:1.7;border-top:1px solid #ddd}
