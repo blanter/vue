@@ -245,6 +245,12 @@ h4.tombol-heading {
   padding:20px 0 0;
 }
 .input-form{margin:10px 0}
+.input-form textarea {
+    font-size: .9rem;
+    font-family: 'Montserrat';
+    color: #444;
+    line-height: 1.5;
+}
 #payment_confirm input,#payment_confirm select,.input-form input,.input-form select,.input-form textarea {
   background:#fff;
   border: 1px solid #cad1d7;
