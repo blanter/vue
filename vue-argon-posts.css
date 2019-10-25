@@ -877,3 +877,21 @@ input.button {
     margin: 0 auto;
     position: relative;
 }
+.input-notif {
+    background: #444;
+    color: #fff;
+    display: inline-block;
+    float: right;
+    margin: 20px 0;
+    padding: 8px 15px;
+    border-radius: .5rem;
+}
+.input-notif.error {
+    background: #c71111;
+}
+.input-notif.sukses {
+    background: #11c749;
+}
+.input-notif img {
+    width: auto;
+}
