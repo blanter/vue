@@ -88,7 +88,7 @@ document.getElementById('add-pemesanan').innerHTML =
 
 /* Halaman */
     if($('.pageBody').hasClass('gallery')) {
-        $('.post-container').toggleClass("halaman");
+        $('.post-container,#header').toggleClass("halaman");
     } 
 
 /* Lazy Load */
