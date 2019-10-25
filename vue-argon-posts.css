@@ -244,7 +244,7 @@ h4.tombol-heading {
   grid-gap: 20px;
   padding:20px 0 0;
 }
-#payment_confirm input,#payment_confirm select {
+#payment_confirm input,#payment_confirm select,.input-form input,.input-form select {
   background:#fff;
   border: 1px solid #cad1d7;
   font-size: .9rem;
@@ -274,7 +274,7 @@ h4.tombol-heading {
 .theme-grid{
   position:relative
 }
-.theme-grid i.icon {
+.inputform i.icon,.theme-grid i.icon {
   position: absolute;
   font-size: 1.4rem;
   margin: 5px;
