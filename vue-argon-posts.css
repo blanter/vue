@@ -244,6 +244,7 @@ h4.tombol-heading {
   grid-gap: 20px;
   padding:20px 0 0;
 }
+.input-form{margin:10px 0}
 #payment_confirm input,#payment_confirm select,.input-form input,.input-form select,.input-form textarea {
   background:#fff;
   border: 1px solid #cad1d7;
@@ -862,3 +863,17 @@ a.captchaid{position:absolute;width:100%;bottom:-350%;left:0}
 
 /* About Pages */
 #about-page,#contact-page,#box-page{z-index:1;position:relative;background:#fff;box-shadow:0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);padding:40px;margin:30px 0 0;box-sizing:border-box;border-radius:.5rem;color:#444;text-align:center}.profile-image{position:relative;height:100px}#content .profile-image img{border-radius:100%;width:180px;height:180px;box-shadow:0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);-webkit-transform:translateY(-100px);transform:translateY(-100px)}.about-info h2 b,.about-info h3{font-weight:500}.about-info h2{font-weight:400}.about-desc{padding:50px 100px;margin:50px 0 0;box-sizing:border-box;line-height:1.7;border-top:1px solid #ddd}
+#contact-page{text-align:left}
+input.button {
+    border: 0;
+    padding: 10px 30px;
+    font-family: 'Montserrat';
+    margin: 20px 0 0;cursor:pointer;
+}
+.mini-wrap {
+    width: 700px;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+}
