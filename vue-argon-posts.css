@@ -80,6 +80,10 @@ img.lazy{display:none}img.lazy.show{display:block}
     width: 100%;
     float: none;
 }
+.halaman .header-one {
+    background: linear-gradient(87deg,#263c61,#1a174d)!important;
+}
+.halaman .comments-id{display:none}
 #content img{
   border-radius:.5rem;
   width:100%;
