@@ -880,11 +880,14 @@ input.button {
 #ContactForm1_contact-form-error-message,#ContactForm1_contact-form-success-message {
     background: #444;
     color: #fff;
-    display: inline-block;
     float: right;
     margin: 20px 0;
     padding: 8px 15px;
     border-radius: .5rem;
+  display:none;
+}
+#ContactForm1_contact-form-error-message.contact-form-error-message-with-border,#ContactForm1_contact-form-success-message.contact-form-success-message-with-border{
+display:inline-block;
 }
 #ContactForm1_contact-form-error-message {
     background: #c71111;
