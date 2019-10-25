@@ -272,10 +272,10 @@ h4.tombol-heading {
 .pemesanan.aktif #payment_confirm input,.pemesanan.aktif #payment_confirm select{
   border-color:#1aae6f
 }
-.theme-grid{
+.theme-grid,.input-form{
   position:relative
 }
-.inputform i.icon,.theme-grid i.icon {
+.input-form i.icon,.theme-grid i.icon {
   position: absolute;
   font-size: 1.4rem;
   margin: 5px;
