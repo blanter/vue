@@ -877,7 +877,7 @@ input.button {
     margin: 0 auto;
     position: relative;
 }
-.input-notif {
+#ContactForm1_contact-form-error-message,#ContactForm1_contact-form-success-message {
     background: #444;
     color: #fff;
     display: inline-block;
@@ -886,12 +886,12 @@ input.button {
     padding: 8px 15px;
     border-radius: .5rem;
 }
-.input-notif.error {
+#ContactForm1_contact-form-error-message {
     background: #c71111;
 }
-.input-notif.sukses {
+#ContactForm1_contact-form-success-message {
     background: #11c749;
 }
-.input-notif img {
+#ContactForm1_contact-form-error-message img,#ContactForm1_contact-form-success-message img{
     width: auto;
 }
