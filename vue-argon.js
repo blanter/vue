@@ -1,8 +1,8 @@
 /* Safe */
-!function(){
-try {
 var uniqueJS = window.location.hostname;
 var windowJS = "www.blantertheme.com";
+!function(){
+try {
   if (uniqueJS == windowJS) {
     return true;
   } else {
