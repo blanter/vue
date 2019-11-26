@@ -1,9 +1,7 @@
 !function(){
 try {
-var uniqueJS = "<data:blog.blogId/>";
-var windowJS = "https://www.blantertheme.com";
-var hostJS = document.querySelector("#waves").innerText;
-  if (uniqueJS == hostJS) {
+var windowJS = "https://www.blantertheme.com/";
+  if (windowJS == relatednet) {
     return true;
   } else {
     document.write("<h1>Clone Detect!</h1>");
