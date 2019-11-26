@@ -1,12 +1,12 @@
 !function(){
 try {
-var uniqueJS = &quot;<data:blog.blogId/>&quot;;
-var windowJS = &#39;https://www.blantertheme.com&#39;;
-var hostJS = document.querySelector(&#39;#waves&#39;).innerText;
+var uniqueJS = "<data:blog.blogId/>";
+var windowJS = "https://www.blantertheme.com";
+var hostJS = document.querySelector("#waves").innerText;
   if (uniqueJS == hostJS) {
     return true;
   } else {
-    document.write(&#39;<h1>Clone Detect!</h1>&#39;);
+    document.write("<h1>Clone Detect!</h1>");
   }
 } catch (e) {
 window.location.href = windowJS;
