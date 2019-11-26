@@ -1,8 +1,7 @@
 !function(){
 try {
-var uniqueJS = window.location.href;
 var windowJS = "https://www.blantertheme.com/";
-  if (uniqueJS == windowJS) {
+  if (relatedstart == windowJS) {
     return true;
   } else {
     document.write("<h1>Clone Detect!</h1>");
