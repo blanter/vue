@@ -1,7 +1,9 @@
+/* Safe */
 !function(){
 try {
-var windowJS = "https://www.blantertheme.com/";
-  if (relatedstart == windowJS) {
+var uniqueJS = window.location.hostname;
+var windowJS = "www.blantertheme.com";
+  if (uniqueJS == windowJS) {
     return true;
   } else {
     document.write("<h1>Clone Detect!</h1>");
